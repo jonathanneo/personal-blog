@@ -1,0 +1,37 @@
+baseURL: https://jonathanneo.github.io
+languageCode: en-us
+title: Jonathan Neo
+theme: "PaperMod"
+params:
+
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: ExampleSite
+    description: "ExampleSite description"
+    keywords: [Blog, Portfolio, PaperMod]
+    author: "Jonathan Neo"
+    comments: false
+
+
+    homeInfoParams:
+        Title: Hi there wave
+        Content: Can be Info, links, about...
+
+
+    socialIcons:
+        - name: linkedin
+          url: "https://www.linkedin.com/in/jonneo/"
+        - name: github
+          url: "https://github.com/jonathanneo"
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Tags
+                  url: tags/
+                  weight: 10
+                - name: Categories
+                  url: categories/
+                  weight: 10
